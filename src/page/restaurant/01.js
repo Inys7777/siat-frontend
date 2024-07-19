@@ -1,11 +1,19 @@
 import UserLayout from '../UserLayout'
-import {Container, Row, Col, Form, Button} from 'react-bootstrap'
+import {Container, Row, Col, Form, Button, Card} from 'react-bootstrap'
 const RestaurantList = () => {
     return(
         <UserLayout>
             <Row>
-                <Col>asd</Col>
-                <Col>asd</Col>
+                <Col>
+                    <Card>
+                        <div className=''>김치</div>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <div className='mandu'>만두</div>
+                    </Card>
+                </Col>
             </Row>
             <Row>
                 <div className=' d-flex justify-content-center'>
